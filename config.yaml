@@ -17,6 +17,7 @@ id:
 
 # domain_id - Refer to domain.csv to access the codes
 codes:
- - 'QV'
+ - 'IG'
+ - 'IC'
  - 'RFN'
  - 'RFB'
