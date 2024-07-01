@@ -33,6 +33,8 @@ YEAR:
   - 2021
 </code></pre>
 <p>The reference file for <code>id</code> is <code>variables.csv</code> and for <code>codes</code> is <code>domain.csv</code>.</p>
+<p>You may expand the list in the <code>config.yaml</code> file to add more <code>ids</code> and <code>codes</code> as needed, according to the reference files <code>variables.csv</code> and <code>domain.csv</code>, to access different datasets at the same time.</p>
+<p>You may also expand the list of <code>YEAR</code> in the <code>config.yaml</code> file to include more years in the retrieved dataset.</p>
 
   <h2>Running the Script</h2>
     <p>To execute the data collection script, run the following command in your shell or command prompt:</p>
