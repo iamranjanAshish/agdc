@@ -1,0 +1,66 @@
+	code	label
+0	QCL	Crops and livestock products
+1	QI	Production Indices
+2	QV	Value of Agricultural Production
+3	FS	Suite of Food Security Indicators
+4	FBS	Food Balances (2010-)
+5	SCL	Supply Utilization Accounts (2010-)
+6	CB	Commodity Balances (non-food) (2010-)
+7	FBSH	Food Balances (-2013, old methodology and population)
+8	CBH	Commodity Balances (non-food) (-2013, old methodology)
+9	TCL	Crops and livestock products
+10	TM	Detailed trade matrix
+11	TI	Trade Indices
+12	PP	Producer Prices
+13	CP	Consumer Price Indices
+14	PD	Deflators
+15	PE	Exchange rates
+16	CAHD	Cost and Affordability of a Healthy Diet (CoAHD)
+17	SUA	Availability (based on supply utilization accounts)
+18	HCES	Apparent intake (based on household consumption and expenditure surveys)
+19	FDIQ	Intake (based on individual quantitative dietary surveys)
+20	MDDW	Diversity (MDD-W, based on individual qualitative dietary surveys)
+21	RL	Land Use
+22	LC	Land Cover
+23	RFN	Fertilizers by Nutrient
+24	RFB	Fertilizers by Product
+25	EMN	Livestock Manure
+26	RP	Pesticides Use
+27	RT	Pesticides Trade
+28	ESB	Cropland Nutrient Balance
+29	EK	Livestock Patterns
+30	BE	Bioenergy
+31	ET	Temperature change on land
+32	OA	Annual population
+33	OEA	Employment Indicators: Agriculture
+34	OER	Employment Indicators: Rural
+35	IG	Government Expenditure
+36	IC	Credit to Agriculture
+37	EA	Development Flows to Agriculture
+38	FDI	Foreign Direct Investment (FDI)
+39	CISP	Country Investment Statistics Profile
+40	MK	Macro Indicators
+41	CS	Capital Stock
+42	GFDI	Value shares by industry and primary factors
+43	GT	Emissions totals
+44	EM	Emissions indicators
+45	EI	Emissions intensities
+46	GCE	Emissions from Crops
+47	GLE	Emissions from Livestock
+48	GN	Emissions from Energy use in agriculture
+49	GF	Emissions from Forests
+50	GI	Emissions from Fires
+51	GV	Emissions from Drained organic soils
+52	GPP	Emissions from pre and post agricultural production
+53	FO	Forestry Production and Trade
+54	SDGB	SDG Indicators
+55	WCAD	Structural data from agricultural censuses
+56	FT	Forestry Trade Flows
+57	HS	Indicators from Household Surveys (gender, area, socioeconomics)
+58	AF	ASTI-Researchers
+59	AE	ASTI-Expenditures
+60	FA	Food Aid Shipments (WFP)
+61	RM	Machinery
+62	RY	Machinery Archive
+63	RA	Fertilizers archive
+64	PA	Producer Prices (old series)
