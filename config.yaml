@@ -1,7 +1,7 @@
 # Sources : USDA - United States Department of Agriculture
 #         : FAO - Food and Agriculture Organization
 
-# USDA API Key
+# USDA API Key : Optional
 API : ''
 
 # Year/Years
