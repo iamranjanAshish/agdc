@@ -68,6 +68,12 @@ YEAR:
         <li>Check the console output for any error messages and follow the instructions provided.</li>
     </ul>
 
+<h2>Additional Notes</h2>
+    <ul>
+        <li>Configuration File: The <code>config.yaml</code> file should be correctly formatted and include all required fields.</li>
+        <li>Execution: The script should be executed with the command <code>py agdc.py</code> or <code>python agdc.py</code> depending on your Python installation.</li>
+    </ul>
+
   <h2>Contact</h2>
     <p>For any questions or further assistance, please contact me <a href="mailto:aasuranjan2k15@gmail.com">here</a>.</p>
 </body>
