@@ -4,18 +4,18 @@
 # USDA API Key : Optional
 API : ''
 
-# Year/Years
+# Year/Years : Required
 YEAR: 
  - 2015
  - 2016
  - 2017
 
-# Variable_id - Refer to variables.csv to access the ids
+# variable_id - Refer to variables.csv to access the ids : Required
 id:
  - 'igovt'
  - 'evfertc'
 
-# domain_id - Refer to domain.csv to access the codes
+# domain_id - Refer to domain.csv to access the codes : Required
 codes:
  - 'IG'
  - 'IC'
