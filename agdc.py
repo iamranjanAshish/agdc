@@ -57,7 +57,7 @@ print('No Error were found in codes...')
 for param in cfg.keys():
     if param == 'API':
         continue
-    if len(cfg[f'{param}']) == 0:
+    if len(cfg[f'{param}']) == 0 or len(cfg[f'{param}']) == None:
         raise ValueError(f"Values were not provided for '{param}'")
 
 # TypeError
