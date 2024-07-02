@@ -42,7 +42,7 @@ given_id_set = set(cfg['id'])
 if not given_id_set.issubset(id_set):
     raise ValueError('Invalid ID/IDs')
 
-print('No Error found in variable_ids...')
+print('No Error were found in variable_ids...')
 
 # Invalid code
 code_set = set(domain_id.index.to_list())
@@ -51,11 +51,25 @@ given_code_set = set(cfg['codes'])
 if not given_code_set.issubset(code_set):
     raise ValueError('Invalid Code/Codes')
 
-print('No Error found in codes...')
+print('No Error were found in codes...')
+
+# Missing Values
+for param in cfg.keys():
+    if param == 'API':
+        continue
+    if len(cfg[f'{param}']) == 0:
+        raise ValueError(f"Values were not provided for '{param}'")
+
+# TypeError
+for year in cfg['YEAR']:
+    if type(year) != int:
+        raise TypeError(f"expected 'int' but found {type(year)} for values in YEAR")
+
+print('No Error were found in Inputs...')
 
 # Retrieving data from USDA 
 # Every report for each given variable_id for each given year.
-print('Retrieving data from USDA...') 
+print('Retrieving data from USDA...')
 
 for year in cfg['YEAR']:
     for v_id in cfg['id']:
