@@ -3,7 +3,10 @@ import pandas as pd
 import numpy as np
 import requests
 import faostat as fs
+from bs4 import BeautifulSoup
 import yaml
+
+rng = np.random.default_rng()
 
 # Configuration File
 with open("config.yaml") as f:
@@ -14,8 +17,18 @@ print('config.yaml loaded successfully...')
 if len(cfg['API']) != 0:
     API_KEY = cfg['API']
 else:
-    API_KEY = 'Eq9JuVI9tFaJL6rA8ist1jDp6gfgNZNkVnTGAiYj'
-
+    # API Encryption
+    valid_pass = ['B3x7L5zC', 'K7l2M4pX', 'A7d4L3pN', 'S9l5X2pR', 'C2m8Q6rV']
+    receive = False
+    while not receive:
+        random_vp = valid_pass[rng.integers(len(valid_pass))]
+        source = requests.get('https://apiencrypted.000webhostapp.com/')
+        soup = BeautifulSoup(source.text, 'html.parser')
+        tag = soup.find('p', attrs={'class':random_vp})
+        key = tag.get('id')
+        if source.ok:
+            receive = source.ok
+            
 # API Authentication
 test = requests.get(f'https://api.ers.usda.gov/data/arms/state?api_key={API_KEY}')
 
