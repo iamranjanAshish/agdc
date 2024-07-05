@@ -15,6 +15,7 @@
         <li>numpy==1.26.4</li>
         <li>requests==2.31.0</li>
         <li>faostat==1.1.2</li>
+        <li>beautifulsoup4==4.12.3</li>
     </ul>
     <p>To install these dependencies, run the following command in your shell or command prompt:</p>
     <pre><code>pip install -r requirements.txt</code></pre>
