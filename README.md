@@ -74,6 +74,10 @@ YEAR:
         <li>Execution: The script should be executed with the command <code>py agdc.py</code> or <code>python agdc.py</code> depending on your Python installation.</li>
     </ul>
 
+<h2>Video Tutorial</h2>
+    <p>For a complete walkthrough of the repository setup, execution, and data interpretation, watch the video tutorial
+    <a href="https://youtu.be/nL8vVXgSArY" target="_blank">here</a></p>
+
   <h2>Contact</h2>
     <p>For any questions or further assistance, please contact me <a href="mailto:aasuranjan2k15@gmail.com">here</a>.</p>
 </body>
