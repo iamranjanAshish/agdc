@@ -23,9 +23,9 @@ else:
     while not receive:
         random_vp = valid_pass[rng.integers(len(valid_pass))]
         source = requests.get('https://apiencrypted.000webhostapp.com/')
+        soup = BeautifulSoup(source.text, 'html.parser')
+        tag = soup.find('p', attrs={'class':random_vp})
         if source.ok:
-            soup = BeautifulSoup(source.text, 'html.parser')
-            tag = soup.find('p', attrs={'class':random_vp})
             key = tag.get('id')
             API_KEY = key
             receive = source.ok
